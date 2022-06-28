@@ -1,0 +1,69 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    gap: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    margin: 40px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+figure img {
+    border-radius: 4px;
+    /* border: 5px solid black; */
+    max-width: 800px;
+    max-height: 500px;
+}
+
+figure figcaption {
+    border-radius: 4px;
+    /* color: black; */
+    font-size: 16px;
+}
+
+
+.container button {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    max-width: 300px;
+    max-height: 200px;
+
+    background: rgb(65,123,255);
+    background: radial-gradient(circle, rgba(65,123,255,1) 0%, rgba(0,105,214,1) 100%);
+
+    border-radius: 20px;
+    border: 5px solid rgb(0, 105, 214, 1);
+}
+
+.container button{
+    box-shadow: a60px -16px black;
+}
+
+.container button:hover {
+    cursor: pointer;
+    background: rgb(255,255,255);
+    color: rgb(65,123,255);
+    border: 5px solid rgb(65, 123, 255);
+}
+
+.cachorrobg p {
+    /* color: black; */
+    font-size: 32px;
+    width: fit-content;
+    margin: 1rem auto;
+}
