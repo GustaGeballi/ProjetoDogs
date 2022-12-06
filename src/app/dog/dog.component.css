@@ -17,3 +17,22 @@
   position: fixed;
   bottom: 0px;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem auto;
+  gap: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
