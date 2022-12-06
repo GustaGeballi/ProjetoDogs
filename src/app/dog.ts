@@ -1,5 +1,3 @@
-export interface Dog 
-{
-    fileSizeBytes: number;
-    url: string;
+export interface Dog {
+    message: string;
 }

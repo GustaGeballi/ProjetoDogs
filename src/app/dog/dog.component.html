@@ -1,11 +1,15 @@
 <div class="container">
     <button (click)="getDog()">APERTE AQUI E SEJA FELIZ</button>
 
-    <div class="cachorrobg" *ngIf="this.dog">
+    <div class="cachoorobg" *ngIf="this.dog">
         <figure class="imgContainer">
-            <img id="imageDog" [src]="this.dog.url">
+            <img id="imageDog" [src]="this.dog.message">
         </figure>
         <figcaption>OLHA QUE FOFOO 😍</figcaption>
-        <h3>Tamanho da imagem: {{(this.dog.fileSizeBytes / 1024).toFixed(2)}}kBs</h3>
     </div>
+</div>
+<div class="footer">
+    <p>
+        Powered by Gustavo Geballi&copy; 2022&reg;
+    </p>
 </div>
